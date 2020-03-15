@@ -1,5 +1,6 @@
 # CDC QnA Maker CLI
 [![npm version](https://badge.fury.io/js/ludown.svg)](https://badge.fury.io/js/ludown)
+
 QnA Maker enables you to go from FAQ to bot in minutes. With QnA Maker you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents or editorial content in minutes.
 This CLI will help you create, update and publish a COVID-19 FAQ built from the CDC web content.
 Once you have your knowledgebase ready, you can connect it to your [Healthcare Bot](https://docs.microsoft.com/en-us/HealthBot/) instance instantly using the [Language models](https://docs.microsoft.com/en-us/HealthBot/language_models).
