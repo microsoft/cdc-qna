@@ -23,5 +23,15 @@
     "chalk": "^3.0.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
-  }
+  },
+  "keywords": [
+    "microsoft",
+    "cdc",
+    "qna",
+    "covid-19",
+    "covid19",
+    "covid",
+    "corona",
+    "coronavirus"
+  ]
 }
