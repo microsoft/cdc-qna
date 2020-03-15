@@ -1,11 +1,9 @@
 {
   "name": "cdc-qna",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command line tool to create and update CDC QnA Maker knowledgebase",
   "main": "classes/Client.js",
-  "scripts": {
-    "postinstall": "node ./node_modules/typescript/bin/tsc"
-  },
+  "scripts": {},
   "bin": {
     "cdc-qna": "./bin/cdc-qna.js"
   },
