@@ -1,6 +1,6 @@
 {
   "name": "cdc-qna",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Command line tool to create and update CDC QnA Maker knowledgebase",
   "main": "./lib/classes/Client.js",
   "bin": {

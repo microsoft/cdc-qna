@@ -7,7 +7,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const chalk = require("chalk");
 const readline = require("readline");
-const Client_1 = require("./../classes/Client");
+const Client_1 = require("./../lib/classes/Client");
 const defaultKnowledgebaseName = "Microsoft Healthcare Bot CDC COVID-19 QnA";
 const defaultblobURL = "https://hastoragedevops.blob.core.windows.net/public/cdc_covid19_qna.html";
 var ACTION;
