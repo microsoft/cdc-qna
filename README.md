@@ -5,25 +5,18 @@ QnA Maker enables you to go from FAQ to bot in minutes. With QnA Maker you can b
 This CLI will help you create, update and publish a COVID-19 FAQ built from the CDC web content.
 Once you have your knowledgebase ready, you can connect it to your [Healthcare Bot](https://docs.microsoft.com/en-us/HealthBot/) instance instantly using the [Language models](https://docs.microsoft.com/en-us/HealthBot/language_models).
   
-
-## Prerequisite
+# Prerequisite
 
 - [Node.js](https://nodejs.org/) version 10.0 or higher
 - [Azure QnA Cognitive Service](https://azure.microsoft.com/en-us/services/cognitive-services/qna-maker/)
 
-
-## Prerequisites
-1) Node V10.17 or later - https://nodejs.org/en/download/
-2) Azure QnA Cognitive Service - https://azure.microsoft.com/en-us/services/cognitive-services/qna-maker/
-> From your cognitive service resource, get the subscription key
-
-## Installation
+# Installation
 To install:
 ```bash
 npm i -g cdc-qna
 ```
 
-## Use as a library
+# Use as a library
 ```bash
 npm install cdc-qna --save
 ```
@@ -51,7 +44,7 @@ Once you created your knowledgebase, it won't be updated with the latest informa
 Use this CLI to run the update flow and you will get the latest updates injected directly into your knowledgebase. 
 
 
-## Demo for creation of a new knowledge base
+# Demo for creation of a new knowledge base
 ```bash
 ################################################################
 # Welcome to the COVID-19 Q&A Maker knowledge base manager CLI #
@@ -85,7 +78,7 @@ Process completed, Thanks you
 
 ```
 
-## Demo for updating an existing knowledge base
+# Demo for updating an existing knowledge base
 ```bash
 ################################################################
 # Welcome to the COVID-19 Q&A Maker knowledge base manager CLI #
@@ -119,8 +112,7 @@ Reading endpoint Keys
 Process completed, Thanks you
 ```
 
-
-## Contributing
+# Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
