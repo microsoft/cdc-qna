@@ -1,12 +1,12 @@
 {
   "name": "cdc-qna",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Command line tool to create and update CDC QnA Maker knowledgebase",
   "main": "lib/classes/Client.js",
-  "scripts": {},
   "bin": {
-    "cdc-qna": "./bin/cdc-qna"
+    "cdc-qna": "./bin/cli.js"
   },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Microsoft/cdc-qna.git"
