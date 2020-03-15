@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "typeRoots": [
+            // add path to @types
+            "node_modules/@types"
+        ],
+        "target": "es2017",
+        "module": "commonjs",
+        "sourceMap": true,
+        "alwaysStrict": true
+    },
+    "exclude": [ "node_modules" ]
+}
