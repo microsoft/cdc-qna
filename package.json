@@ -7,7 +7,7 @@
     "postinstall": "node ./node_modules/typescript/bin/tsc"
   },
   "bin": {
-    "cdc-qna": "./cli.js"
+    "cdc-qna": "./bin/cdc-qna.js"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,6 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "request": "^2.88.2",
-    "request-promise": "^4.2.5",
-    "typescript": "^3.8.3"
-  },
-  "devDependencies": {
-    "@types/node": "10.17.17"
+    "request-promise": "^4.2.5"
   }
 }

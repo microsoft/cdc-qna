@@ -22,7 +22,7 @@ npm install cdc-qna --save
 ```
 In your node project:
 ```js
-import {Client} from "cdc-qna";
+import {Client} from "bin/cdc-qna";
 const client = new Client();
 client.subscriptionKey = "******************************";
 client.blobURI = "******************************"; // best to use "https://hastoragedevops.blob.core.windows.net/public/cdc_covid19_qna.html"
