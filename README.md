@@ -13,13 +13,19 @@ Once you have your knowledgebase ready, you can connect it to your [Healthcare B
 # Installation
 To install:
 ```bash
-npm i -g cdc-qna
+> npm i -g cdc-qna
+```
+
+To run:
+```bash
+> cdc-qna
 ```
 
 # Use as a library
 ```bash
 npm install cdc-qna --save
 ```
+
 In your node project:
 ```js
 import {Client} from "bin/cdc-qna";
@@ -43,9 +49,9 @@ The CDC QnA HTML resource is being updated constantly.
 Once you created your knowledgebase, it won't be updated with the latest information unless you manually update it.
 Use this CLI to run the update flow and you will get the latest updates injected directly into your knowledgebase. 
 
-
 # Demo for creation of a new knowledge base
 ```bash
+> cdc-qna
 ################################################################
 # Welcome to the COVID-19 Q&A Maker knowledge base manager CLI #
 ################################################################
@@ -80,6 +86,7 @@ Process completed, Thanks you
 
 # Demo for updating an existing knowledge base
 ```bash
+> cdc-qna
 ################################################################
 # Welcome to the COVID-19 Q&A Maker knowledge base manager CLI #
 ################################################################
