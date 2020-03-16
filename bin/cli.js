@@ -9,7 +9,7 @@ const chalk = require("chalk");
 const readline = require("readline");
 const Client_1 = require("./../lib/classes/Client");
 const defaultKnowledgebaseName = "Microsoft Healthcare Bot CDC COVID-19 QnA";
-const defaultblobURL = "https://hastoragedevops.blob.core.windows.net/public/cdc_covid19_qna.html";
+const defaultblobURL = "https://hastoragedevops.blob.core.windows.net/public/official.tsv";
 var ACTION;
 (function (ACTION) {
     ACTION[ACTION["NONE"] = 0] = "NONE";
